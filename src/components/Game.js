@@ -61,7 +61,7 @@ function Game() {
     setWinner(null)
     setSquares(Array(9).fill(null)); 
     setXIsNext(true);
-    setGamehistory({turn: true, gameState: []})
+    setGamehistory({turn: [], gameState: []})
   };
 
   return (
